@@ -1,0 +1,32 @@
+server:
+  port: 9090
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8090/eureka}
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: categoria-service
+          uri: lb://categoria-service
+          predicates:
+            - Path=/categoria/**
+        - id: producto-service
+          uri: lb://producto-service
+          predicates:
+            - Path=/producto/**
+        - id: cliente-service
+          uri: lb://cliente-service
+          predicates:
+            - Path=/cliente/**
+        - id: venta-service
+          uri: lb://venta-service
+          predicates:
+            - Path=/venta/**
+
+
