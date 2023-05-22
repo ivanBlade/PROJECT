@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74a63929-b923-4337-9415-4490fb1a0d6c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/dto/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/dto/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/entity/VentaDetalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/entity/VentaDetalle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/feign/ProductoFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/feign/ProductoFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/service/impl/VentaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/service/impl/VentaServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,7 @@
       <workItem from="1684716372994" duration="17000" />
       <workItem from="1684718008413" duration="2309000" />
       <workItem from="1684766691849" duration="3888000" />
-      <workItem from="1684771319601" duration="1685000" />
+      <workItem from="1684771319601" duration="1803000" />
     </task>
     <servers />
   </component>
