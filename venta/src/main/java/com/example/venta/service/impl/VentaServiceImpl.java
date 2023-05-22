@@ -1,9 +1,11 @@
 package com.example.venta.service.impl;
 
+import com.example.venta.dto.Categoria;
 import com.example.venta.dto.Cliente;
 import com.example.venta.dto.Producto;
 import com.example.venta.entity.Venta;
 import com.example.venta.entity.VentaDetalle;
+import com.example.venta.feign.CategoriaFeign;
 import com.example.venta.feign.ClienteFeign;
 import com.example.venta.feign.ProductoFeign;
 import com.example.venta.repository.VentaRepository;
@@ -24,6 +26,8 @@ public class VentaServiceImpl implements VentaService {
     private ClienteFeign clienteFeign;
     @Autowired
     private ProductoFeign productoFeign;
+    @Autowired
+    private CategoriaFeign categoriaFeign;
     @Override
     public List<Venta> listar() {
         return ventaRepository.findAll();
@@ -44,15 +48,18 @@ public class VentaServiceImpl implements VentaService {
     public Optional<Venta> listarPorId(Integer id) {
         Venta venta= ventaRepository.findById(id).get();
 
-        Cliente cliente=clienteFeign.listById(venta.getClienteId()).getBody();
+        Cliente cliente = clienteFeign.listById(venta.getClienteId()).getBody();
         List<VentaDetalle> ventaDetalles = venta.getDetalle().stream().map(ventaDetalle -> {
             System.out.println(ventaDetalle.toString());
             System.out.println("Antes de la peticion");
             Producto producto = productoFeign.listById(ventaDetalle.getProductoID()).getBody();
+            Categoria categoria = categoriaFeign.listById(ventaDetalle.getProductoID()).getBody();
             System.out.println("Despues de la peticion");
             System.out.println(producto.toString());
             System.out.println(producto.getNombre());
             ventaDetalle.setProducto(producto);
+            ventaDetalle.setCategoria(categoria);
+
             return ventaDetalle;
         }).collect(Collectors.toList());
         venta.setDetalle(ventaDetalles);

@@ -5,31 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74a63929-b923-4337-9415-4490fb1a0d6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../producto/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producto/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producto/src/main/java/com/example/producto/ProductoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../producto/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../producto/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../producto/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../producto/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/src/main/java/com/example/catalogo/CatalogoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/src/main/java/com/example/catalogo/controller/ProductoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/src/main/java/com/example/catalogo/entity/Producto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/src/main/java/com/example/catalogo/repository/ProductoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/src/main/java/com/example/catalogo/service/ProductoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/src/main/java/com/example/catalogo/service/impl/productoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../producto/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogo/src/test/java/com/example/catalogo/CatalogoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producto/src/test/java/com/example/producto/ProductoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producto-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producto-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producto/src/main/java/com/example/producto/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producto/src/main/java/com/example/producto/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producto/src/main/java/com/example/producto/entity/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producto/src/main/java/com/example/producto/entity/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producto/src/main/java/com/example/producto/repository/ProductoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producto/src/main/java/com/example/producto/repository/ProductoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producto/src/main/java/com/example/producto/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producto/src/main/java/com/example/producto/service/ProductoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producto/src/main/java/com/example/producto/service/impl/productoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producto/src/main/java/com/example/producto/service/impl/productoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/dto/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/dto/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/entity/VentaDetalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/entity/VentaDetalle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/feign/ProductoFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/feign/ProductoFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/service/impl/VentaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../venta/src/main/java/com/example/venta/service/impl/VentaServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/MICRO/MICRO/config-data",
+    "last_opened_file_path": "E:/PROJECT/registry-server",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,6 +63,7 @@
       <workItem from="1684716372994" duration="17000" />
       <workItem from="1684718008413" duration="2309000" />
       <workItem from="1684766691849" duration="3888000" />
+      <workItem from="1684771319601" duration="1685000" />
     </task>
     <servers />
   </component>

@@ -10,5 +10,4 @@ public class Producto {
     private String precio;
     private String marca;
     private String modelo;
-    private Categoria categoria;
 }

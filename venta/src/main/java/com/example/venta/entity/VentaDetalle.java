@@ -1,5 +1,6 @@
 package com.example.venta.entity;
 
+import com.example.venta.dto.Categoria;
 import com.example.venta.dto.Cliente;
 import com.example.venta.dto.Producto;
 import jakarta.persistence.*;
@@ -17,6 +18,8 @@ public class VentaDetalle {
     private Integer productoID;
     @Transient
     private Producto producto;
+    @Transient
+    private Categoria categoria;
 
     public VentaDetalle(){
         this.cantidad = (double) 0;
